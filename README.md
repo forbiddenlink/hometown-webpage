@@ -1,19 +1,27 @@
-# Getting Started
-Install the dependencies and run the project
-```
+# Visit Washington, PA
+
+A portfolio-grade static website built with Vite, focused on modern frontend craft:
+- editorial visual system and responsive layout
+- semantic HTML and keyboard accessibility
+- multi-page architecture (`home`, `2-day itinerary`, `food guide`, `about`, `contact`, `privacy`)
+- technical SEO foundations (meta tags, OG/Twitter tags, canonical, schema, robots, sitemap)
+- lightweight progressive enhancement with vanilla JavaScript interactions
+
+## Local development
+
+```bash
 npm install
-npm start
+npm run dev
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## Production build
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+```bash
+npm run build
+npm run preview
+```
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Deployment note
 
-Happy Coding!
+The site currently uses `https://washington-pa-guide.vercel.app` in canonicals and sitemap placeholders.
+Update those URLs to your real production domain before launch.

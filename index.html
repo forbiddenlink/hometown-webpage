@@ -1,54 +1,484 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Washington, PA - The County Seat of Washington County</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visit Washington, PA | Local Weekend Guide</title>
+    <meta
+      name="description"
+      content="Plan a memorable weekend in Washington, PA with a local guide to historic landmarks, the Pennsylvania Trolley Museum, Washington Park, and dining ideas."
+    />
+    <link rel="canonical" href="https://washington-pa-guide.vercel.app/" />
 
-<body>
-    <!-- HERO SECTION -->
-    <div class="hero">
-        <h1>Visit Washington, Pennsylvania</h1>
-        <h2>Experience the rich history and charm of Washington County's seat</h2>
-    </div>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Visit Washington, Pennsylvania" />
+    <meta
+      property="og:description"
+      content="An editorial-style city guide with local attractions, a one-day itinerary, and practical trip planning advice."
+    />
+    <meta property="og:url" content="https://washington-pa-guide.vercel.app/" />
+    <meta property="og:image" content="https://washington-pa-guide.vercel.app/images/washingtonpa.jpg" />
 
-    <!-- ACTIVITIES SECTION -->
-    <div class="activities">
-        <h3>Top Attractions in Washington, PA</h3>
-        <div class="attractions">
-            <div class="attraction">
-                <img src="images/meadows.jpg" alt="The Meadows Racetrack and Casino">
-                <h4>The Meadows</h4>
-                <p>Enjoy gaming, dining, and entertainment at Western Pennsylvania's premier casino and racetrack.</p>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Visit Washington, Pennsylvania" />
+    <meta
+      name="twitter:description"
+      content="Historic streets, family-friendly attractions, and practical local tips for your next weekend in Washington, PA."
+    />
+    <meta name="twitter:image" content="https://washington-pa-guide.vercel.app/images/washingtonpa.jpg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@500;600;700&family=Public+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="images/washingtonpa.jpg" />
+    <link rel="preload" as="image" href="images/meadows.jpg" />
+    <link rel="preload" as="image" href="images/trolleymuseum.jpg" />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "TouristDestination",
+            "name": "Washington, Pennsylvania",
+            "description": "A historic Western Pennsylvania city with museums, parks, downtown dining, and family activities.",
+            "url": "https://washington-pa-guide.vercel.app/",
+            "image": "https://washington-pa-guide.vercel.app/images/washingtonpa.jpg",
+            "touristType": ["History enthusiasts", "Families", "Weekend travelers"]
+          },
+          {
+            "@type": "Person",
+            "name": "Elizabeth Ann Stein",
+            "jobTitle": "Local Guide",
+            "description": "Washington County local resident sharing neighborhood recommendations and practical travel tips."
+          },
+          {
+            "@type": "WebSite",
+            "name": "Visit Washington, PA",
+            "url": "https://washington-pa-guide.vercel.app/"
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container nav-row">
+        <a class="brand" href="/" aria-label="Visit Washington, PA home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-text">Visit Washington, PA</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Primary">
+          <a href="/" data-nav="home">Home</a>
+          <a href="/weekend-itinerary.html" data-nav="itinerary">Itinerary</a>
+          <a href="/eat-drink.html" data-nav="food">Food</a>
+          <a href="/about.html" data-nav="about">About</a>
+          <a href="/contact.html" data-nav="contact">Contact</a>
+          <a href="/privacy-policy.html" data-nav="privacy">Privacy</a>
+        </nav>
+
+        <a class="btn btn-sm" href="/contact.html">Plan Your Visit</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section-shell">
+        <div class="container hero-grid">
+          <article class="hero-copy reveal">
+            <p class="eyebrow">Washington County, Pennsylvania</p>
+            <h1>Small-city charm with genuine historical depth.</h1>
+            <p>
+              This city is one of those places that rewards curiosity. In a single day, you can step through transit history at the trolley museum,
+              walk under old shade trees in the city park, and finish downtown with classic diners and local conversation that feels refreshingly unhurried.
+              The city sits at the crossroads of I-70, I-79, and Route 19, so it is easy to reach for a short weekend trip.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#itinerary">See One-Day Itinerary</a>
+              <a class="btn btn-ghost" href="#attractions">Explore Attractions</a>
             </div>
-            <div class="attraction">
-                <img src="images/trolleymuseum.jpg" alt="Pennsylvania Trolley Museum">
-                <h4>Pennsylvania Trolley Museum</h4>
-                <p>Step back in time and explore the history of electric trolleys in this unique museum.</p>
+            <div class="hero-meta" aria-label="Author and update date">
+              <span>By Elizabeth Ann Stein</span>
+              <time datetime="2026-02-18">Updated February 18, 2026</time>
             </div>
-            <div class="attraction">
-                <img src="images/park.jpg" alt="Washington Park">
-                <h4>Washington Park</h4>
-                <p>Relax in this beautiful downtown park featuring walking trails and historic monuments.</p>
-            </div>
+          </article>
+
+          <figure class="hero-media reveal" aria-label="Downtown Washington, Pennsylvania">
+            <img
+              src="images/washingtonpa.jpg"
+              alt="Panoramic view of Washington, Pennsylvania skyline and streets"
+              width="736"
+              height="489"
+              fetchpriority="high"
+              decoding="async"
+            />
+            <figcaption>Historic roots, easy pace, and weekend-ready attractions.</figcaption>
+          </figure>
         </div>
-    </div>
+      </section>
 
-    <!-- GUIDE SECTION -->
-    <div class="guide">
-        <div class="guide-card">
-            <img src="images/mee.jpg" alt="Local Guide">
-            <div class="guide-info">
-                <h3>Your Local Guide</h3>
-                <p>"I have lived in Washington County for over 30 years, and I love sharing the rich history and hidden gems of our beautiful city."</p>
-                <h4>Elizabeth Ann Stein</h4>
-            </div>
+      <section class="section-shell">
+        <div class="container">
+          <h2 class="section-title reveal">Why this city works for a weekend trip</h2>
+          <div class="stats-grid">
+            <article class="stat-card reveal">
+              <p class="stat-value">3-5</p>
+              <p class="stat-label">hours to experience the top highlights without rushing</p>
+            </article>
+            <article class="stat-card reveal">
+              <p class="stat-value">4</p>
+              <p class="stat-label">seasonal moods: spring blooms, summer festivals, fall color, winter lights</p>
+            </article>
+            <article class="stat-card reveal">
+              <p class="stat-value">30+</p>
+              <p class="stat-label">years of local perspective from your guide</p>
+            </article>
+          </div>
         </div>
-    </div>
-</body>
+      </section>
+
+      <section class="section-shell">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">Verified local details (researched February 18, 2026)</h2>
+            <p>These are source-backed facts you can use to plan with confidence before you arrive.</p>
+          </div>
+          <div class="fact-grid">
+            <article class="fact-card reveal">
+              <h3>City history and identity</h3>
+              <p>
+                Washington County was created on March 28, 1781, and local history records note this as the first U.S. county named for George Washington.
+                The City of Washington traces settlement in the area to 1768.
+              </p>
+              <a class="source-link" href="https://washingtonpa.us/history/" target="_blank" rel="noopener noreferrer">Source: City of Washington history</a>
+            </article>
+            <article class="fact-card reveal">
+              <h3>Washington Park and baseball legacy</h3>
+              <p>
+                The local government identifies Washington Park as home to the Pony League World Series, one of the area’s strongest recurring traditions.
+              </p>
+              <a class="source-link" href="https://washingtonpa.us/" target="_blank" rel="noopener noreferrer">Source: City of Washington</a>
+            </article>
+            <article class="fact-card reveal">
+              <h3>Pennsylvania Trolley Museum details</h3>
+              <p>
+                The museum reports nearly 50 streetcars in its collection, with daily operations and seasonal programming, and lists regular hours of 10:00 AM
+                to 4:00 PM on its visit page.
+              </p>
+              <a class="source-link" href="https://pa-trolley.org/plan-your-visit/" target="_blank" rel="noopener noreferrer">Source: Pennsylvania Trolley Museum</a>
+            </article>
+            <article class="fact-card reveal">
+              <h3>Current downtown event anchor</h3>
+              <p>
+                The Whiskey Rebellion Festival listing for 2026 notes July 10-11 in downtown and describes it as free and family-friendly.
+              </p>
+              <a class="source-link" href="https://www.visitwashingtoncountypa.com/whiskey-rebellion-festival/" target="_blank" rel="noopener noreferrer">Source: Visit Washington County</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell section-accent">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">2026 seasonal event planner</h2>
+            <p>Major Washington County events with confirmed 2026 dates so you can time your trip around the atmosphere you want.</p>
+          </div>
+          <div class="season-grid">
+            <article class="season-card reveal">
+              <p class="season-date">July 10-11, 2026</p>
+              <h3>Whiskey Rebellion Festival</h3>
+              <p>
+                Downtown event listed as free and open to all ages, with family activities and weekend parking options.
+              </p>
+              <a class="source-link" href="https://www.visitwashingtoncountypa.com/whiskey-rebellion-festival/" target="_blank" rel="noopener noreferrer"
+                >Source: Whiskey Rebellion Festival page</a
+              >
+            </article>
+            <article class="season-card reveal">
+              <p class="season-date">August 15-22, 2026</p>
+              <h3>Washington County Agricultural Fair</h3>
+              <p>
+                Weeklong county fair programming with exhibits, rides, and live entertainment at the Washington County Fairgrounds.
+              </p>
+              <a class="source-link" href="https://www.visitwashingtoncountypa.com/wash-co-agricultural-fair/" target="_blank" rel="noopener noreferrer"
+                >Source: Washington County Fair page</a
+              >
+            </article>
+            <article class="season-card reveal">
+              <p class="season-date">September 19-20, 2026</p>
+              <h3>Covered Bridge Festival</h3>
+              <p>
+                Signature fall kickoff across multiple sites in Washington and Greene Counties. Admission and parking are listed as free.
+              </p>
+              <a class="source-link" href="https://www.visitwashingtoncountypa.com/covered-bridge-festival/" target="_blank" rel="noopener noreferrer"
+                >Source: Covered Bridge Festival page</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">Practical trip logistics</h2>
+            <p>Useful planning details from official city and museum sources.</p>
+          </div>
+          <div class="plan-grid">
+            <article class="plan-card reveal">
+              <h3>Getting here</h3>
+              <p>
+                The City of Washington highlights its location at the crossroads of I-70, I-79, and Route 19, making it straightforward to reach from the
+                Pittsburgh region.
+              </p>
+              <a class="source-link" href="https://washingtonpa.us/" target="_blank" rel="noopener noreferrer">Source: City of Washington</a>
+            </article>
+            <article class="plan-card reveal">
+              <h3>Transit + accessibility</h3>
+              <p>
+                The Pennsylvania Trolley Museum notes Freedom Transit County Line A service from Washington, plus ADA-compliant facilities and free visitor
+                parking.
+              </p>
+              <a class="source-link" href="https://pa-trolley.org/plan-your-visit/" target="_blank" rel="noopener noreferrer">Source: PA Trolley Museum</a>
+            </article>
+            <article class="plan-card reveal">
+              <h3>Food and downtown exploration</h3>
+              <p>Use the county tourism restaurants directory for dining options, then use its shopping listings to build your downtown browsing plan.</p>
+              <div class="source-inline-links">
+                <a class="source-link" href="https://www.visitwashingtoncountypa.com/restaurants/" target="_blank" rel="noopener noreferrer"
+                  >Restaurants Directory</a
+                >
+                <a class="source-link" href="https://www.visitwashingtoncountypa.com/events/" target="_blank" rel="noopener noreferrer"
+                  >Current county events</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="attractions" class="section-shell section-accent">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">Top local attractions</h2>
+            <p>
+              Use the filters to match your trip style. Every stop below is realistic for a short visit and easy to combine into a single day plan.
+            </p>
+          </div>
+
+          <div class="filter-row reveal" role="toolbar" aria-label="Attraction filters">
+            <button class="filter-chip is-active" type="button" data-filter="all">All</button>
+            <button class="filter-chip" type="button" data-filter="history">History</button>
+            <button class="filter-chip" type="button" data-filter="family">Family</button>
+            <button class="filter-chip" type="button" data-filter="outdoors">Outdoors</button>
+            <button class="filter-chip" type="button" data-filter="entertainment">Entertainment</button>
+          </div>
+
+          <div class="card-grid">
+            <article class="place-card reveal" data-tags="entertainment">
+              <img
+                src="images/meadows.jpg"
+                alt="The Meadows Racetrack and Casino entrance"
+                width="299"
+                height="168"
+                decoding="async"
+              />
+              <div class="place-content">
+                <h3>The Meadows</h3>
+                <p>
+                  If your group wants evening energy, this is the strongest option in the area: live racing atmosphere, gaming floors, and reliable dining.
+                </p>
+                <p>The venue advertises 24/7 casino hours with dining and entertainment options on-site.</p>
+                <p class="card-note">Best for: couples, night-out groups</p>
+                <a class="source-link" href="https://www.hollywoodmeadows.com/" target="_blank" rel="noopener noreferrer">Source: Hollywood Casino at The Meadows</a>
+              </div>
+            </article>
+
+            <article class="place-card reveal" data-tags="history family">
+              <img
+                src="images/trolleymuseum.jpg"
+                alt="Vintage trolley cars at the Pennsylvania Trolley Museum"
+                width="300"
+                height="168"
+                decoding="async"
+              />
+              <div class="place-content">
+                <h3>Pennsylvania Trolley Museum</h3>
+                <p>
+                  A memorable stop that balances nostalgia with hands-on learning. Kids love the scale, adults appreciate the preserved design history.
+                </p>
+                <p class="card-note">Best for: families, history lovers</p>
+              </div>
+            </article>
+
+            <article class="place-card reveal" data-tags="outdoors family">
+              <img
+                src="images/park.jpg"
+                alt="Walking paths and trees in Washington Park"
+                width="960"
+                height="539"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="place-content">
+                <h3>Washington Park</h3>
+                <p>
+                  The city’s breathing room. Bring coffee, take the longer walking loop, and reset before heading back into downtown restaurants and shops.
+                </p>
+                <p class="card-note">Best for: scenic breaks, morning walks</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="itinerary" class="section-shell">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">A practical one-day itinerary</h2>
+            <p>This schedule is designed for first-time visitors who want substance without an exhausting pace.</p>
+          </div>
+
+          <ol class="timeline">
+            <li class="timeline-item reveal">
+              <p class="timeline-time">9:00 AM</p>
+              <h3>Park walk + downtown breakfast</h3>
+              <p>Start at Washington Park while temperatures are lower, then move to a nearby diner or cafe before museum hours begin.</p>
+            </li>
+            <li class="timeline-item reveal">
+              <p class="timeline-time">11:30 AM</p>
+              <h3>Trolley museum deep dive</h3>
+              <p>Give this stop enough time to appreciate context, exhibits, and restored cars. It is the most distinctive historical experience in town.</p>
+            </li>
+            <li class="timeline-item reveal">
+              <p class="timeline-time">4:30 PM</p>
+              <h3>Dinner + evening entertainment</h3>
+              <p>Wrap the day with local dining and either a casual downtown evening or a full entertainment block at The Meadows.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">Deep planning guides</h2>
+            <p>Use these pages for more detailed trip prep beyond the homepage overview.</p>
+          </div>
+          <div class="plan-grid">
+            <article class="plan-card reveal">
+              <h3>2-day itinerary</h3>
+              <p>A fuller weekend plan with pacing options for families, event weekends, and relaxed travelers.</p>
+              <a class="source-link" href="/weekend-itinerary.html">Open 2-day itinerary</a>
+            </article>
+            <article class="plan-card reveal">
+              <h3>Food and dining guide</h3>
+              <p>How to structure breakfast, lunch, and dinner decisions with current source directories.</p>
+              <a class="source-link" href="/eat-drink.html">Open food guide</a>
+            </article>
+            <article class="plan-card reveal">
+              <h3>Custom local recommendations</h3>
+              <p>Share your dates and interests if you want a personalized version of these guides.</p>
+              <a class="source-link" href="/contact.html">Request recommendations</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell section-accent">
+        <div class="container guide-grid reveal">
+          <img
+            class="guide-photo"
+            src="images/mee.jpg"
+            alt="Portrait of local guide Elizabeth Ann Stein"
+            width="700"
+            height="695"
+            loading="lazy"
+            decoding="async"
+          />
+          <article>
+            <h2 class="section-title">Meet your local guide</h2>
+            <p>
+              I have lived in Washington County for more than three decades, and I built this guide to help visitors avoid generic tourist lists.
+              The recommendations here are grounded in places residents actually return to.
+            </p>
+            <p>
+              If you are planning a quick getaway, I can help you decide where to spend time based on your interests, whether that means architecture,
+              family activities, or a lower-key weekend rhythm.
+            </p>
+            <p class="guide-signoff">Elizabeth Ann Stein</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell faq-shell">
+        <div class="container">
+          <h2 class="section-title reveal">Frequently asked questions</h2>
+          <div class="faq-list">
+            <details class="faq-item reveal">
+              <summary>How many days do I need in Washington, PA?</summary>
+              <p>One full day covers the signature experiences. A two-day trip gives you room for slower meals, nearby neighborhoods, and seasonal events.</p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Is this destination family-friendly?</summary>
+              <p>Yes. The museum and park are especially family-friendly, and most stops are easy to navigate without long drives between them.</p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>When is the best season to visit?</summary>
+              <p>Fall is the most photogenic, spring is the easiest for comfortable walking, and summer works well if you want longer daylight hours.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell cta-shell">
+        <div class="container reveal cta-box">
+          <h2>Build your custom weekend plan</h2>
+          <p>
+            Tell me your interests and pace, and I will help you shape a focused itinerary with realistic timing.
+          </p>
+          <a class="btn" href="/contact.html">Request Local Recommendations</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <section>
+          <h2>Visit Washington, PA</h2>
+          <p>A local-first city guide focused on real experiences, practical pacing, and historical character.</p>
+        </section>
+        <section>
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/weekend-itinerary.html">2-Day Itinerary</a></li>
+            <li><a href="/eat-drink.html">Food Guide</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="mailto:hello@washingtonpa-guide.com">hello@washingtonpa-guide.com</a></li>
+            <li>Washington County, Pennsylvania</li>
+          </ul>
+        </section>
+      </div>
+      <p class="footer-note">&copy; <span data-year></span> Visit Washington, PA. Built as a portfolio-ready frontend project.</p>
+    </footer>
+
+    <script type="module" src="/script.js" defer></script>
+  </body>
 </html>

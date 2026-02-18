@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact a Local Guide | Visit Washington, PA</title>
+    <meta
+      name="description"
+      content="Request custom recommendations for your Washington, PA trip, share your interests and schedule, and get a practical local itinerary from a resident guide."
+    />
+    <link rel="canonical" href="https://washington-pa-guide.vercel.app/contact.html" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact a Local Guide | Visit Washington, Pennsylvania" />
+    <meta
+      property="og:description"
+      content="Tell us your trip style and get recommendations for a focused Washington County visit."
+    />
+    <meta property="og:url" content="https://washington-pa-guide.vercel.app/contact.html" />
+    <meta property="og:image" content="https://washington-pa-guide.vercel.app/images/washingtonpa.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contact a Local Guide | Visit Washington, Pennsylvania" />
+    <meta name="twitter:description" content="Request practical local recommendations for your next trip." />
+    <meta name="twitter:image" content="https://washington-pa-guide.vercel.app/images/washingtonpa.jpg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@500;600;700&family=Public+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact a Local Guide",
+        "url": "https://washington-pa-guide.vercel.app/contact.html",
+        "datePublished": "2026-02-18"
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container nav-row">
+        <a class="brand" href="/" aria-label="Visit Washington, PA home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-text">Visit Washington, PA</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Primary">
+          <a href="/" data-nav="home">Home</a>
+          <a href="/weekend-itinerary.html" data-nav="itinerary">Itinerary</a>
+          <a href="/eat-drink.html" data-nav="food">Food</a>
+          <a href="/about.html" data-nav="about">About</a>
+          <a href="/contact.html" data-nav="contact">Contact</a>
+          <a href="/privacy-policy.html" data-nav="privacy">Privacy</a>
+        </nav>
+
+        <a class="btn btn-sm" href="/contact.html">Plan Your Visit</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-hero section-shell">
+        <div class="container reveal">
+          <p class="eyebrow">Contact</p>
+          <h1>Request personalized local recommendations</h1>
+          <p>
+            Share your travel style and I will help you shape a practical Washington, PA itinerary.
+            You can submit the form or email directly if you prefer.
+          </p>
+          <div class="hero-meta">
+            <span>By Elizabeth Ann Stein</span>
+            <time datetime="2026-02-18">Updated February 18, 2026</time>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="container contact-grid">
+          <article class="prose reveal">
+            <h2>What to include in your request</h2>
+            <p>
+              The best recommendations come from clear constraints. Let me know who is traveling, how much time you have, and what kind of pace you enjoy.
+              Some visitors want a packed day with multiple stops, while others want one or two highlights with plenty of unstructured time for coffee,
+              conversation, and short neighborhood walks.
+            </p>
+            <p>
+              If anyone in your group has accessibility needs, include that early. I can prioritize routes and destinations that are easier to navigate.
+              You can also mention whether weather backup plans are important. Western Pennsylvania weather can shift quickly, so indoor alternatives are often
+              worth planning in advance.
+            </p>
+            <p>
+              Response target: within two business days. For same-weekend visits, include your exact date range so I can prioritize quickly.
+            </p>
+            <p>
+              I can also suggest a budget-friendly version of the same itinerary if you want to minimize paid attractions while still getting a strong sense
+              of Washington County. If food is a priority, note dietary needs and whether you prefer quick casual spots or sit-down dinner pacing.
+            </p>
+            <p>
+              You are welcome to include transportation context as well. Visitors arriving by car usually have more flexibility, but I can still map compact
+              walking-first options for travelers who want to stay near downtown and keep driving to a minimum.
+            </p>
+
+            <h2>Direct email</h2>
+            <p>
+              <a href="mailto:hello@washingtonpa-guide.com">hello@washingtonpa-guide.com</a><br />
+              Washington County, Pennsylvania
+            </p>
+          </article>
+
+          <section class="contact-card reveal" aria-labelledby="contact-form-title">
+            <h2 id="contact-form-title">Trip planning form</h2>
+            <form action="mailto:hello@washingtonpa-guide.com" method="post" enctype="text/plain">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required />
+
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+
+              <label for="travelers">Travel group</label>
+              <select id="travelers" name="travelers" required>
+                <option value="">Select one</option>
+                <option value="solo">Solo traveler</option>
+                <option value="couple">Couple</option>
+                <option value="family">Family</option>
+                <option value="friends">Friends group</option>
+              </select>
+
+              <label for="interests">Top interests</label>
+              <textarea
+                id="interests"
+                name="interests"
+                rows="4"
+                placeholder="History, parks, food, entertainment, architecture, family activities"
+                required
+              ></textarea>
+
+              <label for="timing">Travel timing</label>
+              <input id="timing" name="timing" type="text" placeholder="Example: Saturday day trip in April" required />
+
+              <button class="btn" type="submit">Send Trip Details</button>
+              <p class="form-note">Submitting opens your email client with form details prefilled.</p>
+            </form>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <section>
+          <h2>Visit Washington, PA</h2>
+          <p>A local-first city guide focused on real experiences, practical pacing, and historical character.</p>
+        </section>
+        <section>
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/weekend-itinerary.html">2-Day Itinerary</a></li>
+            <li><a href="/eat-drink.html">Food Guide</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="mailto:hello@washingtonpa-guide.com">hello@washingtonpa-guide.com</a></li>
+            <li>Washington County, Pennsylvania</li>
+          </ul>
+        </section>
+      </div>
+      <p class="footer-note">&copy; <span data-year></span> Visit Washington, PA. Built as a portfolio-ready frontend project.</p>
+    </footer>
+
+    <script type="module" src="/script.js" defer></script>
+  </body>
+</html>
