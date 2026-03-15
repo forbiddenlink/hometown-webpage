@@ -1,6 +1,8 @@
 {
   "name": "hometown-webpage",
-  "description": "https://scrimba.com/frontend-path-c0j/~041",
+  "description": "A hometown showcase webpage built with Vite",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "start": "vite",
     "dev": "vite",
