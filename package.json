@@ -26,8 +26,5 @@
     "overrides": {
       "vite": ">=8.0.5"
     }
-  },
-  "overrides": {
-    "vite": "8.0.5"
   }
 }
