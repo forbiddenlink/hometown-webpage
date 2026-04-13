@@ -24,3 +24,4 @@ out/
 # Next.js
 .next/
 .env*
+package-lock.json
