@@ -18,7 +18,7 @@
     "vite": "latest"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.12",
+    "@biomejs/biome": "2.5.12",
     "jsdom": "^30.0.1",
     "vitest": "^4.1.11"
   },
