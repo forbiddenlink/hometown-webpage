@@ -19,8 +19,8 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.12",
-    "jsdom": "^30.0.1",
-    "vitest": "^4.1.11"
+    "jsdom": "30.0.1",
+    "vitest": "4.1.11"
   },
   "packageManager": "pnpm@10.34.5"
 }
