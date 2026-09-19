@@ -38,7 +38,8 @@ Multi-page site, one HTML file per page, all built via `vite.config.js`
   filters, scroll-reveal animations)
 - `styles.css` - shared styles
 - `__tests__/script.test.js` - vitest/jsdom tests for `script.js`
-- `robots.txt`, `sitemap.xml` - static SEO files (contain the placeholder domain)
+- `public/robots.txt`, `public/sitemap.xml` - static SEO files (contain the
+  placeholder domain), copied to the build root by Vite's default `publicDir`
 
 ## Conventions
 
@@ -49,8 +50,5 @@ Multi-page site, one HTML file per page, all built via `vite.config.js`
 
 ## Gotchas
 
-- README's local-dev section still shows an older package manager's syntax; this
-  repo is pnpm-only (`pnpm-lock.yaml`, `packageManager` pin, no
-  `package-lock.json`) - use the Commands section above instead.
 - Canonical URLs, OG tags, `robots.txt`, and `sitemap.xml` all reference the
   placeholder `washington-pa-guide.vercel.app` domain; update before real launch.
