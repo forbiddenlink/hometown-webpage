@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://washington-pa-guide.vercel.app/sitemap.xml
