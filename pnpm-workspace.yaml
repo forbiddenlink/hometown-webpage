@@ -12,3 +12,5 @@ overrides:
   lodash: ">=4.17.21"
   flatted: ">=3.3.4"
   undici: ">=7.29.1 <8"
+
+  'source-map-js@1': '>=1.2.2 <2.0.0'
