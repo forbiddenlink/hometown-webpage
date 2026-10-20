@@ -2,15 +2,15 @@ packages:
   - "."
 
 overrides:
-  vite: ">=8.0.5"
-  protobufjs: ">=7.5.5"
-  fast-uri: ">=3.1.2"
-  axios: ">=1.13.5"
-  hono: ">=4.13.0"
-  minimatch: ">=10.2.5"
-  picomatch: ">=4.0.4"
-  lodash: ">=4.17.21"
-  flatted: ">=3.3.4"
+  vite: ">=8.0.5 <9.0.0"
+  protobufjs: ">=7.5.5 <8.0.0"
+  fast-uri: ">=3.1.2 <4.0.0"
+  axios: ">=1.13.5 <2.0.0"
+  hono: ">=4.13.0 <5.0.0"
+  minimatch: ">=10.2.5 <11.0.0"
+  picomatch: ">=4.0.4 <5.0.0"
+  lodash: ">=4.17.21 <5.0.0"
+  flatted: ">=3.3.4 <4.0.0"
   undici: ">=7.29.1 <8"
 
   'source-map-js@1': '>=1.2.2 <2.0.0'
