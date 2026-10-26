@@ -14,7 +14,7 @@ overrides:
   picomatch: '>=4.0.4 <5.0.0'
   lodash: '>=4.17.21 <5.0.0'
   flatted: '>=3.3.4 <4.0.0'
-  undici: '>=7.29.1 <8'
+  undici: '>=7.30.1 <8'
   source-map-js@1: '>=1.2.2 <2.0.0'
 
 importers:
@@ -544,8 +544,8 @@ packages:
     resolution: {integrity: sha512-BcDSDW+SIGWVOns1Zm6Yg91q9AEj7eaID0QDY9oIqJD1A8dscNwMcl9Sms2DeuWCNov1X0/oXanHGYQBSLwZsg==}
     engines: {node: ^22.14.0 || >=24.0.0}
 
-  undici@7.30.0:
-    resolution: {integrity: sha512-dkrQXeHSaoamnItlYbmzG0wFYrM0ZwDxCIg0A7aKjTyyhh9svRzCNFEzV+Vm05/yehjCzjDZ31KXfGEjYSztDQ==}
+  undici@7.30.1:
+    resolution: {integrity: sha512-03KrMbjIFDWQR5RNPrSw3bd1r12JpyFQl9/yxjUbJtqkjmllqC5lFjZh6ujeuJCKr8EOQvRW872Oy/az+nLYxg==}
     engines: {node: '>=20.18.1'}
 
   vite@8.3.4:
@@ -912,7 +912,7 @@ snapshots:
       parse5: 8.0.1
       saxes: 6.0.0
       tough-cookie: 6.0.2
-      undici: 7.30.0
+      undici: 7.30.1
       w3c-xmlserializer: 6.0.0
       webidl-conversions: 8.0.1
       whatwg-mimetype: 5.0.0
@@ -1062,7 +1062,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  undici@7.30.0: {}
+  undici@7.30.1: {}
 
   vite@8.3.4:
     dependencies:
