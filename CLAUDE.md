@@ -2,8 +2,8 @@
 
 Portfolio-grade static website for Washington, PA (a hometown showcase): multi-page
 editorial site with SEO foundations and vanilla-JS progressive enhancement. Built
-with Vite. Deployed on Vercel (canonical URLs currently point at
-`washington-pa-guide.vercel.app`, a placeholder to swap before real launch).
+with Vite. Not deployed yet: canonical and og:url values are relative, and
+`public/sitemap.xml` is removed until there is a production host (see README).
 
 Repo: https://github.com/forbiddenlink/hometown-webpage
 
@@ -38,8 +38,8 @@ Multi-page site, one HTML file per page, all built via `vite.config.js`
   filters, scroll-reveal animations)
 - `styles.css` - shared styles
 - `__tests__/script.test.js` - vitest/jsdom tests for `script.js`
-- `public/robots.txt`, `public/sitemap.xml` - static SEO files (contain the
-  placeholder domain), copied to the build root by Vite's default `publicDir`
+- `public/robots.txt`, `public/favicon.svg` - static files copied to the build root
+  by Vite's default `publicDir` (`public/sitemap.xml` is intentionally absent)
 
 ## Conventions
 
@@ -50,5 +50,7 @@ Multi-page site, one HTML file per page, all built via `vite.config.js`
 
 ## Gotchas
 
-- Canonical URLs, OG tags, `robots.txt`, and `sitemap.xml` all reference the
-  placeholder `washington-pa-guide.vercel.app` domain; update before real launch.
+- Canonical URLs, `og:url`, and `og:image` are relative and there is no sitemap,
+  because those need an absolute production host. `__tests__/host-metadata.test.js`
+  fails if the old placeholder domain `washington-pa-guide.vercel.app` comes back.
+  Add absolute URLs, a sitemap, and a `Sitemap:` line in `robots.txt` at first deploy.
