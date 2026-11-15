@@ -14,7 +14,7 @@ const navByPath = {
 };
 
 function markCurrentNav() {
-  const currentPath = window.location.pathname;
+  const currentPath = window.location.pathname.replace(/\/+$/, "") || "/";
   const currentKey = navByPath[currentPath] || "home";
 
   document.querySelectorAll("[data-nav]").forEach((link) => {
