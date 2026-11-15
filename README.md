@@ -31,5 +31,7 @@ pnpm biome:check
 
 ## Deployment note
 
-The site currently uses `https://washington-pa-guide.vercel.app` in canonicals and sitemap placeholders.
-Update those URLs to your real production domain before launch.
+The site is not deployed yet, so canonicals, og:url and og:image are relative and `public/sitemap.xml` is removed
+(sitemaps and `robots.txt` Sitemap lines need absolute URLs).
+After the first real deploy, add absolute URLs for the production host in the HTML heads, restore
+`public/sitemap.xml` and add a `Sitemap:` line to `public/robots.txt`.
