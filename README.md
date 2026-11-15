@@ -9,9 +9,22 @@ A portfolio-grade static website built with Vite, focused on modern frontend cra
 
 ## Local development
 
+The repo does not pin a Node version; use a current LTS release with pnpm. No environment variables are read.
+
 ```bash
 pnpm install
-pnpm dev
+pnpm dev          # vite dev server (pnpm start is an alias)
+```
+
+## Project structure
+
+```text
+index.html, weekend-itinerary.html, eat-drink.html,
+about.html, contact.html, privacy-policy.html   # one HTML file per page
+styles.css, script.js                           # shared styles and vanilla JS
+public/                                         # robots.txt, favicon.svg
+__tests__/                                      # Vitest and Node tests
+vite.config.js                                  # multi-page build and security headers
 ```
 
 ## Production build
@@ -35,3 +48,7 @@ The site is not deployed yet, so canonicals, og:url and og:image are relative an
 (sitemaps and `robots.txt` Sitemap lines need absolute URLs).
 After the first real deploy, add absolute URLs for the production host in the HTML heads, restore
 `public/sitemap.xml` and add a `Sitemap:` line to `public/robots.txt`.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
